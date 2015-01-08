@@ -1,0 +1,27 @@
+//General Stuff
+#define ENCODER_RESET 0
+#define NINETY_TURN_TICKS 1120
+#define FORTY_FIVE_TURN_TICKS 560
+#define TURNING_SPEED 100
+#define DEAD_RECKONING 100
+#define HALF_SPEED 50
+
+// Initial state of servos
+#define AUTO_ARM_STARTING_POSITION 110
+
+// Find IR
+#define FIRST_DETECT_TICKS 1400
+#define SECOND_DETECT_TICKS 540
+#define DETECT_IR_SPEED 50
+
+//45 DEGREE
+#define ANGLE_DRIVE_TICKS 855
+
+//Dumping Mechanism
+#define SCISSOR_LIFT_MOTOR 100
+#define AUTO_ARM_DUMP 255
+#define LIFTING_TIME 5000
+#define DUMPING_TIME 500
+
+//Kickstand
+#define KICKSTAND_DRIVE_TICKS 1500
